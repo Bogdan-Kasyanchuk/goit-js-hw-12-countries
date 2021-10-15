@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+ul,
+li {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 550px;
+}
+
+body {
+  background-image: linear-gradient(to right, #abbaab, #ffffff);
+}
+
+.container {
+  width: 1000px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

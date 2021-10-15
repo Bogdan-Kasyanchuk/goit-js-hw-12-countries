@@ -1,0 +1,39 @@
+.country-title {
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.country-description {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.country-list {
+  padding-right: 40px;
+  font-size: 30px;
+}
+
+.country-item {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.country-sublist {
+  padding-top: 10px;
+}
+
+.country-subitem {
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+span {
+  font-weight: 700;
+}

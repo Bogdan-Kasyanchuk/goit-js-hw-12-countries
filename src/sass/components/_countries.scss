@@ -1,0 +1,19 @@
+.countries-list {
+  padding-right: 40px;
+  font-size: 30px;
+}
+
+.countries-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  &:hover,
+  &:focus {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+  }
+}
